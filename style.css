@@ -1,14 +1,6 @@
-/*body{color:blue;}
-*/
-
-/*a { text-decoration: none;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 10px;
- }*/
-
-.info {background-color: black;
-       }
+.info {
+    background-color: black;
+}
 
 .info a {
     color: #ffffff;
@@ -20,14 +12,16 @@
     text-align: right;
 }
 
-.about {background-color: white;
-        color: black;
-        font-family: sans-serif;
-        }
-.about a {text-decoration: none;
-          text-align: left;
-          cursor: pointer;
-           }
+.about {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+.about a {
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
 .about a span {
     /*background-color: red;
     color: white;
@@ -41,19 +35,428 @@
     padding: 3px 4px 1px;
     border-radius: 5px;
 }
-.european-audience
-#register
-#transfer
-.cyber
-.percentage
-.turbo
-.managed
-.get
-.free
-#privacy
+
+#ukraine{
+    background-color: blue;
+    color: #ffffff;
+    align-items: center;
+}
+/*#ukraine p {text-align: right;}
+
+#ukraine img {background-color: black;}
+*/
+#european-audience {
+    background-color: skyblue;
+    background-size: 100%;
+    padding: 20px 392px ;
+    color: #ffffff;
+} 
+
+#registerform .register, input, #beastmode, #search { position: static; }
+
+/*img {
+  filter: grayscale(100%);
+}*/
+
+#registerform{
+    background-image: url("images/namecheap-image-use-5.jpg");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    font-size: 1rem;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+.register {height: 40px;
+    min-width: 96px;
+    /*background-color: hsla(0,0%,100%,.2);
+    line-height: 40px;
+    padding: 0 16px;*/
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+#register {
+    background-color: #8cc1c1;
+    border: none;
+    margin-right: 0px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 8px 0px 0px 8px;
+    letter-spacing: 1.5;
+}
+
+#transfer {
+    background-color: skyblue;
+    border: none;
+    padding: 2px 2px 2px 2px;
+    border-radius:0px 8px 8px 0px;
+    letter-spacing: 1.5px;
+    margin-left: 0px;
+}
+
+#registerform form{
+    display: flex;
+    justify-content: center;
+}
+
+#registerform #text{
+    margin: 0 300 0 300;
+}
+
+#registerform #com{
+    text-align: center;
+}
+
+#registerform input {
+    padding: 10px 0px 10px 0px;
+    font-size: 1.1rem;
+    background-color:#ffffff ;
+    text-align: left;
+    flex-grow:2;
+    border-radius: 8px 0px 0px 8px;
+    border-right-style: none;
+}
+
+#beastmode {
+    padding: 10px 10px 10px 10px;
+    font-size: 0.9rem;
+    background-color:#ffffff ;
+    text-align: center;
+    border-left-style: none;
+    border-right-style: none;
+    color: #de3723;
+}
+#beastmode:hover {
+    text-decoration: underline;
+} 
+
+#search {
+    padding: 10px 30px 10px 30px;
+    font-size: 1.1rem;
+    background-color:#e14a38 ;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+
+
+#registerform p {
+    font-size: 1.125rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+#registerform p a {color:#ffffff}
+
+#registerform h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#buydomain{
+    font-size: 1.6rem;
+    text-align: center !important;
+    color: #4a4a4a;
+    font-family: GB Museo Sans,Arial,Helvetica,sans-serif;
+    line-height: 1.25;
+    font-weight: 500;
+    margin-bottom: 24px !important;
+}
+
+.wordpress {
+    display: flex;
+    justify-content: center;
+}
+
+#promos {
+    color: #fff;
+    background: #8cc1c1;
+    text-decoration: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+.domains{
+    color: #6d6e70;
+    background: #eee;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+#apps{
+    color: #6d6e70;
+    background: #eee;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;  
+}
+
+#explore{
+    text-align: center;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+
+}
+
+#check{
+    text-align: center;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #8d8d8d;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+#cyber{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    border-radius: 8px ;
+    height: auto;
+    color: white;
+}
+
+.percentage p{
+    background-color: red;
+    /*line-height: 1rem;
+    height: 2rem;*/
+    text-align: center;
+    vertical-align: top; 
+    /*background-size: contain;*/
+    border-radius: 5px;
+}
+
+.turbo{
+    background-color: white;
+    border: 1px;
+    border-radius: 8px;
+    height: auto;
+    color: black;
+    box-shadow: 5px;
+    width: 25%;
+    margin: 50px 10px;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+.turbo .managed{
+    background-color: grey;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding: 0px;
+    background-size: cover;
+}
+
+.get{
+    color: red;
+}
+
+.free{
+    background-color: skyblue;
+    line-height: 2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: top; 
+    padding: 3px 4px 1px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.rating{
+    justify-content: center;
+}
+
+.rating span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    /*line-height: 1rem;*/
+    color: #4a4a4a;
+    font-family: GB Museo Sans,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: top;
+}
+
+.rating img {align-self: center;}
+
+.rating p {
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    color: rgb(109, 110, 112);
+    text-align: center;
+}
+
+.rating p a {
+    color: rgb(222, 55, 35);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.rating p a:hover{
+    text-decoration: underline;
+}
+
+.trusted span {
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
+
+.trusted p {
+    opacity: 0.5;
+    align-content: center;
+}
+ 
+.imgur
+
+.figma{
+    border: 1px;
+    border-radius: 8px;
+    background-color: grey;
+    width: 50%;
+    height: 300px;
+    box-shadow: 2px;
+    align-content: center;
+}
+
+.step p{
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
+
+.step span {
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(109, 110, 112);
+    font-size: 1.2rem;
+    vertical-align: top;
+}
+
+/*.step img{
+    align-items: left;
+}*/
+
+.step .right {
+    text-align: right;
+}
+
+.step .right p {
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(109, 110, 112);
+    font-size: 1rem;
+}
+
+.step .left p {
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(109, 110, 112);
+    font-size: 1rem;
+}
+
+.step .left p a{ color: #de3723; }
+
+.step .right p a{ color: #de3723; }
+
+/*.step .extension{ text-decoration: none;}
+*/
+.step aside{
+    width: 50%;
+    vertical-align: top;
+}
+
+#whynamecheap {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #4a4a4a;
+    text-align: center !important;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    margin-bottom: 4px !important;
+}
+
+#simple{
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(109, 110, 112);
+    font-size: 1.5rem;
+}
+
+.card{
+    background-color: white;
+    border: 1px;
+    border-radius: 8px;
+    height: auto;
+    color: black;
+    box-shadow: 5px;
+    width: 20%;
+    margin: 20px 50px;
+    font-family: "GB Museo Sans", Arial, Helvetica, sans-serif;
+}
+
+/*.card img{
+    background-size: contain;
+}*/
+
+.stay{
+    justify-content: right;
+}
+
+.stay form{
+    display: flex;
+}
+
+/*#privacy
 .link
 .drowndown-questions
 .help
-.live
+.live*/
+
+.links ul li span {
+    /*background-color: red;
+    color: white;
+    padding:1 1 1 1;*/
+    height: auto;
+    background-color: rgb(255, 140, 68);
+    letter-spacing: 0.3px;
+    line-height: 60px; /*The line-height property specifies the height of a line. Note: Negative values are not allowed*/
+    text-transform: uppercase;
+    vertical-align: top; /*places the text at the top*/
+    padding: 3px 4px 1px;
+    border-radius: 5px;
+}
 #UDRP
 span {}
