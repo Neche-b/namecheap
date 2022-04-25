@@ -338,13 +338,17 @@
     align-content: center;
 }
  
-.imgur
+.imgur{
+    display: flex;
+    justify-content: center;
+}
 
 .figma{
     border: 1px;
     border-radius: 8px;
     background-color: grey;
-    width: 50%;
+    width: 18%;
+    margin-right: 20px;
     height: 300px;
     box-shadow: 2px;
     align-content: center;
