@@ -8,8 +8,8 @@
     cursor: pointer;
        }
 
-.info a span {
-    text-align: right;
+.info span {
+    margin-left: auto;
 }
 
 .about {
@@ -39,7 +39,8 @@
 #ukraine{
     background-color: blue;
     color: #ffffff;
-    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 /*#ukraine p {text-align: right;}
 
@@ -59,7 +60,7 @@
 }*/
 
 #registerform{
-    background-image: url("images/namecheap-image-use-5.jpg");
+    background-image: url("./namecheap-image-use-5.jpg");
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: 100%;
